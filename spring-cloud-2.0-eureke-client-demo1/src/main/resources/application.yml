@@ -6,4 +6,4 @@ server:
   port: 8764
 spring:
   application:
-    name: eureka-feign
+    name: test1

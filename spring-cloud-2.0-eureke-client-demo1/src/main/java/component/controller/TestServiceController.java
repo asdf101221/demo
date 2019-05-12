@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestServiceController {
-    @Value("server.port")
+    @Value("${server.port}")
 	private String port;
     
     @RequestMapping("/getPort")
