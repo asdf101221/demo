@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: zkservFeign
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+      discovery:
+        register: false
+        enabled: true
+server:
+  port: 8882

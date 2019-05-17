@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: zkserv
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+      discovery:
+        register: true
+        enabled: true
+        instance-id: 1
+
+server:
+  port: 8881
