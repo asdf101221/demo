@@ -7,7 +7,7 @@ spring:
       discovery:
         register: true
         enabled: true
-        instance-id: 1
+        #instance-id: 1
 
 server:
   port: 8881
